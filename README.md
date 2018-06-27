@@ -1,16 +1,14 @@
-# Chatbot Project - Front Page
+---
+description: An Introduction to Conversational Interactions
+---
+
+# Chatbot Code Reference - Front Page
 
 {% hint style="danger" %}
-**UPDATE IN PROGRESS:** This document is being replaced with a [new version](https://docs.idew.org/project-chatbot-health/). Please check back later. _Notice posted: June 5, 2018_
+**UPDATE IN PROGRESS:**  Please check back later. _Notice posted: June 5, 2018_
 {% endhint %}
 
-## An Introduction to Conversational Interactions
 
-[CHATBOT INTRO](introduction-to-chatbots.md) \| [WARM-UP PROJECT](warm-up-project-outline/) \| [TEAM CHALLENGE & PROJECT OUTLINE](https://github.com/idewcomputing/code-chatbot/tree/d44f65c34e44ff82bde8bcf55617d2ed80d12f28/team-project-outline.md) \| [RIVESCRIPT DOCS](https://www.rivescript.com/docs/tutorial)
-
-```javascript
-"Documentation is in progress for a Fall 2017 pilot. Expect frequent updates."
-```
 
 Part of the [_Computing by Design_](https://cxd.gitbooks.io/the-cxd-framework/content/) high school curriculum developed for the [Informatics Diversity-Enhanced Workforce \(iDEW\) Program](http://soic.iupui.edu/idew/)
 
@@ -19,7 +17,7 @@ Part of the [_Computing by Design_](https://cxd.gitbooks.io/the-cxd-framework/co
 * Jim Lyst, Indiana University School of Informatics and Computing at IUPUI
 * Michael Frontz, Indiana University School of Informatics and Computing at IUPUI
 
-Copyright © 2015-2017 Jim Lyst and Michael Frontz, Indiana University School of Informatics and Computing at IUPUI
+Copyright © 2015-2018 Jim Lyst and Michael Frontz, Indiana University School of Informatics and Computing at IUPUI
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
