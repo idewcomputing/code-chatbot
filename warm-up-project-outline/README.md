@@ -1,4 +1,4 @@
-# Warm-up Project Outline
+# Warm-up Project
 
 Let's take our first dive into _conversational interactions_ with a warm-up project that you will do individually. We will do some reading and research, as well as create an _interaction script_ for a chatbot. This will provide a foundation for tackling your team project.
 
