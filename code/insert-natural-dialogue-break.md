@@ -2,7 +2,7 @@
 
 If you would like to add some more natural breaks to your chatbot's dialogue, you can use the code samples outlined here.
 
-In the image below, the change seen on the right demonstrates the improvement offered by this code modification. There is a slight pause between each dialogue bubble too. ![](../.gitbook/assets/chatcompare.png)
+In the image below, the change seen on the right demonstrates the improvement offered by this code modification. There is a slight pause between each dialogue bubble too. ![](https://github.com/idewcomputing/code-chatbot/tree/d44f65c34e44ff82bde8bcf55617d2ed80d12f28/.gitbook/assets/chatcompare.png)
 
 1. **Replace your** `postReply()` **function with the function below.**
 

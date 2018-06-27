@@ -27,9 +27,8 @@ Let's get familiar with the syntax of RiveScript and how it will provide the log
    >
    > &lt; object
    >
-   > + add \# and \#
-   >
-   > - `<star1> + <star2> = <call>add <star1> <star2></call>`
+   > * add \# and \#
+   > * `<star1> + <star2> = <call>add <star1> <star2></call>`
 
 7. **Finally, find two other features of RiveScript syntax to implement in your bot.**
 

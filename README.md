@@ -6,7 +6,7 @@
 
 ## An Introduction to Conversational Interactions
 
-[CHATBOT INTRO](introduction-to-chatbots.md) \| [WARM-UP PROJECT](warm-up-project-outline/) \| [TEAM CHALLENGE & PROJECT OUTLINE](team-project-outline.md) \| [RIVESCRIPT DOCS](https://www.rivescript.com/docs/tutorial)
+[CHATBOT INTRO](introduction-to-chatbots.md) \| [WARM-UP PROJECT](warm-up-project-outline/) \| [TEAM CHALLENGE & PROJECT OUTLINE](https://github.com/idewcomputing/code-chatbot/tree/d44f65c34e44ff82bde8bcf55617d2ed80d12f28/team-project-outline.md) \| [RIVESCRIPT DOCS](https://www.rivescript.com/docs/tutorial)
 
 ```javascript
 "Documentation is in progress for a Fall 2017 pilot. Expect frequent updates."

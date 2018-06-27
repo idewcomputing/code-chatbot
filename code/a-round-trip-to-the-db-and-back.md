@@ -67,7 +67,7 @@ Let's unpack what is happening here.
 
 * The user says "quiz me" to trigger the bot. 
 
-_Working from the inside-out on the response..._ 
+_Working from the inside-out on the response..._
 
 * The `<call>getRandomTerm</call>` calls the JS function in our `object`. 
 * The function gets a random number between 0 and the total number of terms in the database \(`database.length`\). 
