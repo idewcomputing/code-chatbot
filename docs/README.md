@@ -1,12 +1,4 @@
----
-description: An Introduction to Conversational Interactions
----
-
 # Chatbot Code Reference - Front Page
-
-{% hint style="danger" %}
-**UPDATE IN PROGRESS:**  _Notice posted: June 5, 2018_
-{% endhint %}
 
 
 
