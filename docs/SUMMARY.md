@@ -16,6 +16,5 @@
   * [Connecting a Database Using Google Sheets](code-mods/connecting-a-database-using-google-sheets.md)
   * [A Round Trip to the DB and Back](code-mods/a-round-trip-to-the-db-and-back.md)
   * [Placing JS Functions in your Main JS File](code-mods/placing-js-functions-in-a-separate-file.md)
-  * [Insert Natural Dialogue Break](code-mods/insert-natural-dialogue-break.md)
 * [Rivescript Reference](https://www.rivescript.com/docs/tutorial)
 
