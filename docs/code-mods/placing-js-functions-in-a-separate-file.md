@@ -1,6 +1,6 @@
 # Placing JS Functions in your Main JS File
 
-**For your chatbot we recommend that you place the bulk of your Javascript work in a proper Javascript file.** For example, your chatbot script file may have the following function.
+**For your chatbot we recommend that you place the bulk of your Javascript work in a proper Javascript file and keep your Rivescript "objects" very simple.**
 
 ## An Example...
 
@@ -12,6 +12,9 @@ Your _Rivescript_ file could simply call a Javascript function like below.
 > object getRandomTerm javascript
   return getRandomTerm();
 < object
+
++ random
+- Finding a random term... <call>getRandomTerm</call>
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -29,6 +32,8 @@ function getRandomTerm() {
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+**The chain of returns:** The Javascript function will _return_ the "term" \(in this case\) to the Rivescript object, which will then return that value to your script file
 
 {% hint style="info" %}
 **Placing JavaScript in a proper `.js` file produces the familiar code highlighting that makes your code much easier to write, edit, and debug.**
