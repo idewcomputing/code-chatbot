@@ -10,12 +10,12 @@
   * [5 Chatbot Evaluation](warm-up-project-outline/5-chatbot-evaluation.md)
   * [6 Chatbot Improvement and Reflection](warm-up-project-outline/6-chatbot-improvement-and-reflection.md)
 * [Code Mods](code-mods/README.md)
+  * [Add Sound Effect](code-mods/add-sound-effect.md)
   * [Adding Topics](code-mods/adding-topics.md)
   * [Using Functions](code-mods/using-functions.md)
   * [Connecting a Database Using Google Sheets](code-mods/connecting-a-database-using-google-sheets.md)
   * [A Round Trip to the DB and Back](code-mods/a-round-trip-to-the-db-and-back.md)
   * [Placing JS Functions in a Separate File](code-mods/placing-js-functions-in-a-separate-file.md)
   * [Insert Natural Dialogue Break](code-mods/insert-natural-dialogue-break.md)
-  * [Add Sound Effect](code-mods/add-sound-effect.md)
 * [Rivescript Reference](https://www.rivescript.com/docs/tutorial)
 
