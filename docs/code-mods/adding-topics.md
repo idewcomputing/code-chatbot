@@ -2,7 +2,7 @@
 
 There are a couple of ways you could add topics to your chatbot. But we recommend you do it the following way if you are working in teams.
 
-Remember that you can always access the [reference material for RiveScript](https://www.rivescript.com/docs/tutorial#topics) to understand them more. Also check out the [Chatbot Mods CodePen](https://codepen.io/jlyst/project/editor/ZGgQjm#) for live examples.
+Remember that you can always access the [reference material for RiveScript](https://www.rivescript.com/docs/tutorial#topics) to understand them more. 
 
 **1. Create separate chatbot script files for each topic.** If you are using Editey you will want to keep your main chatbot script, likely called `chatbotRivescript.html`. Then add files for each topic like `chatbotRivescript_topic1` `chatbotRivescript_topic2` `chatbotRivescript_topic3`. NOTE: We add the .html extension to our chatbot scripts for easy access in Editey. They aren't actually `HTML`. **2. Place topic tags in each of the new files** with the script embedded like this.
 
