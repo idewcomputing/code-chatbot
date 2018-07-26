@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Chatbot Code Reference - Front Page](README.md)
+* [Getting Started](core-template.md)
 * [Warm-up Project](warm-up-project-outline/README.md)
   * [1 Getting Started](warm-up-project-outline/1-getting-started.md)
   * [2 Read and Discuss](warm-up-project-outline/2-read-and-discuss.md)
@@ -16,5 +17,4 @@
   * [Placing JS Functions in a Separate File](code-mods/placing-js-functions-in-a-separate-file.md)
   * [Insert Natural Dialogue Break](code-mods/insert-natural-dialogue-break.md)
 * [Rivescript Reference](https://www.rivescript.com/docs/tutorial)
-* [Core Template](core-template.md)
 

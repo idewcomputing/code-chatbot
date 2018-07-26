@@ -1,6 +1,6 @@
-# Core Template
+# Getting Started
 
-The code below will get you started with the iDEW chatbot. It is a minimum starting point for a working chatbot that you will be able to modify and refine towards your design goals.
+The code below will get you started with the iDEW chatbot template. It is a minimum starting point for a working chatbot that you will later modify and refine towards your design goals.
 
 ## HTML
 
