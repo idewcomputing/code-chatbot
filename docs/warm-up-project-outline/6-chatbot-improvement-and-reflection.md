@@ -16,6 +16,5 @@ Implement changes to your chatbot based on the previous evaluation and reflect o
 
 ## ✓ Deliverables
 
-1. Update your script in the [Chatbot Scripts Google form](https://goo.gl/forms/ZgVAUlKL8wCVb2zE3).\*\*
-2. Submit your document \(about one page in length\). Make your document easy to follow and ensure the three items above are clearly covered.
+Submit your document \(about one page in length\). Make your document easy to follow and ensure the three items above are clearly covered.
 

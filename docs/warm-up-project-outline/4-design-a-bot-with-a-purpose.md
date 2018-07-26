@@ -18,7 +18,6 @@ Use [this template](https://docs.google.com/document/d/1CesR18bYIEUy1YSfgoDXsqhX
 ## ✓ Deliverable
 
 * Submit your design document in class 
-* Update your chatbot script in the [Chatbot Scripts Google form](https://goo.gl/forms/ZgVAUlKL8wCVb2zE3) to make it accessible through the [iDEW chatbot](https://3f4f14cf84904c39b800c0f021944c18.codepen.website/).
 
 **A Checklist for Chatbot Usability**
 
