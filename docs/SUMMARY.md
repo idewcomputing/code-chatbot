@@ -16,5 +16,6 @@
   * [A Round Trip to the DB and Back](code-mods/a-round-trip-to-the-db-and-back.md)
   * [Placing JS Functions in a Separate File](code-mods/placing-js-functions-in-a-separate-file.md)
   * [Insert Natural Dialogue Break](code-mods/insert-natural-dialogue-break.md)
+  * [Add Sound Effect](code-mods/add-sound-effect.md)
 * [Rivescript Reference](https://www.rivescript.com/docs/tutorial)
 
