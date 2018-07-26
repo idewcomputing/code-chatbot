@@ -1,6 +1,6 @@
 # Add Sound Effect
 
-Let's add a simple _pop_ sound effect when a message is received from the chatbot.
+Let's add a simple _pop_ sound effect when a message is sent by the chatbot.
 
 {% file src="../.gitbook/assets/pop.mp3" caption="pop.mp3" %}
 
