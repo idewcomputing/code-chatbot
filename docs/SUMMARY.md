@@ -3,7 +3,7 @@
 * [Chatbot Code Reference - Front Page](README.md)
 * [Getting Started](core-template.md)
 * [Warm-up Project](warm-up-project-outline/README.md)
-  * [1 Getting Started](warm-up-project-outline/1-getting-started.md)
+  * [1 Code Template](warm-up-project-outline/1-getting-started.md)
   * [2 Read and Discuss](warm-up-project-outline/2-read-and-discuss.md)
   * [3 Get Familiar with Rivescript](warm-up-project-outline/3-get-familiar-with-rivescript.md)
   * [4 Design a Bot with a Purpose](warm-up-project-outline/4-design-a-bot-with-a-purpose.md)
