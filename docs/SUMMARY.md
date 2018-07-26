@@ -16,4 +16,5 @@
   * [Placing JS Functions in a Separate File](code-mods/placing-js-functions-in-a-separate-file.md)
   * [Insert Natural Dialogue Break](code-mods/insert-natural-dialogue-break.md)
 * [Rivescript Reference](https://www.rivescript.com/docs/tutorial)
+* [Core Template](core-template.md)
 
