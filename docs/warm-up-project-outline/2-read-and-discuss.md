@@ -19,5 +19,5 @@ Read about design aspects of conversational interactions with bots and synthesiz
 
 ## ✓ Deliverable
 
-Answer the questions in [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSceqpU4NNfJp85jFm7BE1yQldTXopttoZEbmukaKLnPtQ0ybA/viewform?usp=sf_link) when you have finished reading the material. Be prepared to discuss as a class.
+Document your answers to the questions above for each reading and be prepared to discuss in class.
 
