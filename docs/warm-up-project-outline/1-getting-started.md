@@ -14,11 +14,14 @@ Let's get started with some chatbot code.
 2. Take a look at the `bot.rive` file while you message with the chatbot. Notice how the script file controls how the bot responds to you.
 3. Change the `start` response, which introduces your chatbot to the user. Include a name for your chatbot. You can change it again later.
 4. Change the `*` response as well, where the bot responds to unknown user requests.
-5. Add the following _Rivescript_ lines below to respond to "hello". Change the response as you like.
+5. Add the following _Rivescript_ lines below to respond to "hello" and "bye". Change the response as you like.
 
 ```text
 + hello
 - Hi there. Thanks for visiting.
+
++ bye
+- Good bye.
 ```
 
 ## ✓ Deliverable
