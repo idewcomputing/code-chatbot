@@ -61,7 +61,7 @@ window.onload = setup;
 
 ## Rivescript
 
-The script below determines how your chatbot will converse with a visitor. The + start is automatically started to get the conversation going. The + \* is a wildcard that catches anything that you have not programmed your chatbot to recognize. So, at first your chatbot recognizes nothing, but we will work on that later.
+The script below determines how your chatbot will converse with a visitor. The `+ start` is automatically started to get the conversation going. The `+ *` is a wildcard that catches anything that you have not programmed your chatbot to recognize. At first your chatbot recognizes little, but we will work on that soon.
 
 {% code-tabs %}
 {% code-tabs-item title="Rivescript \(bot.rive\)" %}
@@ -80,7 +80,7 @@ The script below determines how your chatbot will converse with a visitor. The +
 
 ## CSS
 
-There is a lot going on here with the styling of the chatbot. Use the code below as your starting point, but you may choose to change some elements later.
+There is a lot going on here with the styling of the chatbot. Use the code below as your starting point, but you may choose to change some elements later. A simple way to customize the look would be to change the _background_, _font-family_, and _color_ of the body element.
 
 {% code-tabs %}
 {% code-tabs-item title="CSS \(style.css\)" %}
