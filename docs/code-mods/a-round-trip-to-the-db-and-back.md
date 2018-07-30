@@ -92,5 +92,3 @@ _Working from the inside-out on the response..._
 
 Wow. That's a lot of work for such a short dialogue. But now you could have one of 10,000 terms randomly displayed to the user.
 
-If you want to see how you could then check the users response to the question, take a look at the [Chatbot Mods CodePen](https://codepen.io/jlyst/project/editor/ZGgQjm#) and dig around in the code.
-
