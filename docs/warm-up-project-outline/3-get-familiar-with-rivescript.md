@@ -14,7 +14,7 @@ Let's get familiar with the syntax of RiveScript and how it will provide the log
 4. Use [a redirection](https://www.rivescript.com/docs/tutorial#redirections) to your "hello" trigger when the user inputs "Hey". Basically, make your bot respond the same way to _hello_ or _hey._
 5. **Create a reply to "My name is Sue" \(or any name\).** In your chatbot response, use the person's name---like, "Nice to meet you Sue, my name is ChattyBot." Hint: Use an [open-ended trigger with a wildcard](https://www.rivescript.com/docs/tutorial#open-ended-triggers).
 6. **Have your bot kick-off the conversation with** _**a question**_ **when it starts so the visitor knows how to continue the conversation.** Also, add the needed script to listen for a response to that question and respond. Take a look at [this example on short discussions](https://www.rivescript.com/docs/tutorial#short-discussions).
-7. **Finally, find two other features of RiveScript syntax to implement in your bot.**
+7. **Finally, choose two other features of RiveScript syntax to implement in your bot.**
 
 ## ✓ Deliverable
 
