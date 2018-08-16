@@ -14,7 +14,6 @@
   * [Adding Topics](code-mods/adding-topics.md)
   * [Using Functions](code-mods/using-functions.md)
   * [Connecting a Database Using Google Sheets](code-mods/connecting-a-database-using-google-sheets.md)
-  * [A Round Trip to the DB and Back](code-mods/a-round-trip-to-the-db-and-back.md)
   * [Placing JS Functions in your Main JS File](code-mods/placing-js-functions-in-a-separate-file.md)
 * [Rivescript Reference](https://www.rivescript.com/docs/tutorial)
 
