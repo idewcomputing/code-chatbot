@@ -15,7 +15,7 @@ var chatbot = {
   },
   loadFiles: function(filenames) {
     bot = new RiveScript();
-    bot.loadFile(filenames, on_load_success, on_load_error);
+    bot.loadFile(filenames).then(on_load_success).catch(on_load_error);
   },
   getReply: function(text) {
     bot.reply(null, text).then(
@@ -39,7 +39,8 @@ var chatbot = {
           reply +
           "</span></div>"
       );
-      pop.play();
+      if (typeof pop !== "undefined") pop.play();
+      if (typeof onChatbotReply === "function") onChatbotReply();
       $("#" + rand)
         .hide()
         .fadeIn(200);
