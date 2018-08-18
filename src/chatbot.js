@@ -73,7 +73,7 @@ var chatbot = {
 function on_load_success() {
   $("#message").removeAttr("disabled");
   $("#message").attr("placeholder", "Message");
-  $("#message").focus();
+  //$("#message").focus();
   bot.sortReplies();
   chatbot.getReply("start");
 }
