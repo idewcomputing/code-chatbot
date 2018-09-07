@@ -1,4 +1,4 @@
-# Adding Topics
+# Using Topics
 
 There are a couple of ways you could add topics to your chatbot. But we recommend you do it the following way if you are working in teams.
 

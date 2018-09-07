@@ -1,4 +1,4 @@
-# Add Sound Effect
+# Add Sound Effects
 
 Let's add a simple _pop_ sound effect when a message is sent by the chatbot.
 

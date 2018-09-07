@@ -1,4 +1,4 @@
-# Use Buttons for User Input
+# Add Buttons for User Input
 
 ![](../.gitbook/assets/buttonscreenshot.png)
 
