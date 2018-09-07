@@ -12,9 +12,9 @@
 * [Code Mods](code-mods/README.md)
   * [Add Sound Effect](code-mods/add-sound-effect.md)
   * [Use Buttons for User Input](code-mods/use-buttons-for-user-input.md)
-  * [Adding Topics](code-mods/adding-topics.md)
   * [Using Functions](code-mods/using-functions.md)
   * [Connecting a Database Using Google Sheets](code-mods/connecting-a-database-using-google-sheets.md)
   * [Placing JS Functions in your Main JS File](code-mods/placing-js-functions-in-a-separate-file.md)
+  * [Adding Topics](code-mods/adding-topics.md)
 * [Rivescript Reference](https://www.rivescript.com/docs/tutorial)
 
