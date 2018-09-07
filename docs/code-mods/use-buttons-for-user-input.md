@@ -33,3 +33,5 @@ Notice that the example below uses the continuation syntax \(`^`\) in the chatbo
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+That's it. Modify as needed.
+
