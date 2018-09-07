@@ -15,5 +15,6 @@
   * [Using Functions](code-mods/using-functions.md)
   * [Connecting a Database Using Google Sheets](code-mods/connecting-a-database-using-google-sheets.md)
   * [Placing JS Functions in your Main JS File](code-mods/placing-js-functions-in-a-separate-file.md)
+  * [Use Buttons for User Input](code-mods/use-buttons-for-user-input.md)
 * [Rivescript Reference](https://www.rivescript.com/docs/tutorial)
 
