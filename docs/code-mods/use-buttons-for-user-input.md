@@ -2,7 +2,7 @@
 
 ![](../.gitbook/assets/buttonscreenshot.png)
 
-While a text interface is great for allowing people to engage with natural language, there are times when a simple button has advantages allowing you to interact with specificity and save time for the user. Below is a simple example of how you can add buttons to your chatbot script.
+While a text interface is great for allowing people to engage with natural language, there are times when a simple button has advantages allowing you to interact with specificity and save time for the user. 
 
 ### Use HTML Buttons Directly in the Rivescript
 
