@@ -25,8 +25,8 @@ Notice how this will run the `getRandomTerm()` function, like the one below, tha
 {% code-tabs-item title="Javascript" %}
 ```javascript
 function getRandomTerm() {
-  var randomIndex = Math.floor(Math.random() * database.length);
-  currentItem = database[randomIndex]
+  var randomIndex = Math.floor(Math.random() * chatbot.db.length);
+  currentItem = chatbot.db[randomIndex]
   return currentItem.term;
 }
 ```

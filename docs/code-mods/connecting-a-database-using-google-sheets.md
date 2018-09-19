@@ -66,8 +66,8 @@ You could now access your database in a function like the one below. This functi
 
 ```text
   > object getRandomTerm javascript
-    var randomIndex = Math.floor(Math.random() * database.length);
-    var currentItem = database[randomIndex]
+    var randomIndex = Math.floor(Math.random() * chatbot.db.length);
+    var currentItem = chatbot.db[randomIndex]
     return currentItem.term;
   < object
 
