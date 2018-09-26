@@ -13,6 +13,18 @@ var chatbot = {
       }
     });
   },
+  getDB: function(link) {
+    return new Promise((resolve, reject) => {
+      Tabletop.init({
+        key: link,
+        callback: data => {
+          var thisdb = data["Sheet1"].elements;
+          console.log("Your Database Rows Loaded: ", thisdb.length);
+          resolve(thisdb);
+        }
+      });
+    });
+  },
   loadFiles: function(filenames) {
     bot = new RiveScript();
     bot.loadFile(filenames).then(on_load_success).catch(on_load_error);
