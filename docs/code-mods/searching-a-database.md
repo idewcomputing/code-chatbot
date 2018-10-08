@@ -6,6 +6,8 @@ Below is an example of how a chatbot could search a database of definitions and 
 This example uses the same database described in the example for [Connecting a Database Using Google Sheets](https://docs.idew.org/code-chatbot/code-mods/connecting-a-database-using-google-sheets), which has column names _id, term, definition, and keywords_. Your database will likely have different column names.
 {% endhint %}
 
+![](../.gitbook/assets/searchexample.png)
+
 ## 1. Create the Rivescript Trigger
 
 Create a trigger in your chatbot script like the one below that will respond to the user typing "search" followed by a word. The response will begin with "Searching..." to provide feedback to the user, then call a search terms function that we will define next.
