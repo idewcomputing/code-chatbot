@@ -20,10 +20,17 @@ In order to import your information, you will need to publish your Google Sheet.
 Add the following to your `code.js` file inside the `setup()` function. You can place it at the top.
 
 ```javascript
-chatbot.loadDB('1rR9ODzcTYv95dYGal-ZXBRp3wgp0I7fbKIk5I2hJkgI');
+chatbot.getDB('1rR9ODzcTYv95dYGal-ZXBRp3wgp0I7fbKIk5I2hJkgI')
+    .then(data => chatbot.db = data);
 ```
 
-You will need to change the `key` value to the link you copied in the previous step for your Google sheet. Your spreadsheet data is now available in an array, `chatbot.db`, where each array element represents a row in your spreadsheet as an object.
+You will need to change the `key` value \(the long number in the example above\) to the link you copied in the previous step for your Google sheet. Your spreadsheet data is now available in an array, `chatbot.db`, where each array element represents a row in your spreadsheet as an object.
+
+{% hint style="warning" %}
+**For those that may have previously used `loadDB( )`:** 
+
+The `loadDB( )` function still works but it is being deprecated. You should use the `getDB( )` shown above since it supports loading multiple databases.
+{% endhint %}
 
 The `chatbot.db` array now contains your spreadsheet data as a list of Javascript objects like the one shown below. See the connection to the spreadsheet we started with? So, in Javascript you could use `chatbot.db[0].keywords` to get the first term's key words \("labeled, training"\).
 
@@ -76,4 +83,15 @@ You could now access your database in a function like the one below. This functi
 ```
 
 Wow. That's seems like a lot of work for such a short dialogue. But now you could have one of 10,000 terms randomly displayed to the user. There will be more examples of functions accessing a database in the listed _Code Mods_.
+
+## 5. Adding more databases
+
+You may want to use multiple databases in your chatbot. You can reuse the `getDB( )` function to load several databases like below, allowing you to access each database with `chatbot.db`, `chatbot.db2`,  and `chatbot.db3`.
+
+```javascript
+//replace the 'link' text in each to match your spreadsheet link 
+chatbot.getDB('link').then(data => chatbot.db = data);
+chatbot.getDB('link').then(data => chatbot.db2 = data);
+chatbot.getDB('link').then(data => chatbot.db3 = data);
+```
 
