@@ -41,9 +41,9 @@ Let's step through what is happening above...
      - `args[0]` represents the text the user has typed in for the search.  
 The variable `filtered` now contains the matches of our search.
 
-**Lines 3-5** take each matched item, create HTML for the term and definition to be returned to the user.
+**Lines 3-5** takes each matched item and creates HTML for the term and definition that will be displayed to the user.
 
-**Line 6** defines a variable for our reply string. We start with "Didn't find any matches".
+**Line 6** defines a variable for our reply string. We start with "Didn't find any matches" as a default.
 
 **Line 7** modifies our reply with the HTML of terms and definitions if there were any matches.
 
