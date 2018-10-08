@@ -25,6 +25,12 @@ var chatbot = {
       });
     });
   },
+  dbFilter: function (db,col,val) {
+    var filtered = db.filter(function(row) {
+      return row[col].toLowerCase().indexOf(val.toLowerCase()) > -1; 
+    });
+    return filtered;
+  },
   loadFiles: function(filenames) {
     bot = new RiveScript();
     bot.loadFile(filenames).then(on_load_success).catch(on_load_error);
