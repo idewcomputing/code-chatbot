@@ -8,7 +8,7 @@ Below is an example of a spreadsheet of _machine learning_ terms. Of course, you
 
 ![Example Spreadsheet for Chatbot Database](../.gitbook/assets/dbspreadsheetex.png)
 
-## 2. Publish Your Google Sheet {#using-google-sheet-as-database-recommended}
+## 2. Publish Your Google Sheet <a id="using-google-sheet-as-database-recommended"></a>
 
 In order to import your information, you will need to publish your Google Sheet.
 

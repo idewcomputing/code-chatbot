@@ -18,5 +18,6 @@
   * [Storing Data for a User](code-mods/storing-data-for-a-user.md)
   * [Placing JS Functions in your Main JS File](code-mods/placing-js-functions-in-a-separate-file.md)
   * [Using Topics](code-mods/adding-topics.md)
+  * [Create Flipcards](code-mods/create-flipcards.md)
 * [Rivescript Reference](https://www.rivescript.com/docs/tutorial)
 
