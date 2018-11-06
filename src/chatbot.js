@@ -13,12 +13,17 @@ var chatbot = {
       }
     });
   },
-  getDB: function(link) {
+  getDB: function(link, sheetName) {
     return new Promise((resolve, reject) => {
       Tabletop.init({
         key: link,
         callback: data => {
-          var thisdb = data["Sheet1"].elements;
+          var sheetNames = Object.keys(data);
+          var thisdb = [];
+          if (sheetName)
+            thisdb = data[sheetName] ? data[sheetName].elements : [];
+          else
+            thisdb = data[sheetNames[0]] ? data[sheetNames[0]].elements : [];
           console.log("Your Database Rows Loaded: ", thisdb.length);
           resolve(thisdb);
         }
