@@ -84,14 +84,29 @@ You could now access your database in a function like the one below. This functi
 
 Wow. That's seems like a lot of work for such a short dialogue. But now you could have one of 10,000 terms randomly displayed to the user. There will be more examples of functions accessing a database in the listed _Code Mods_.
 
-## 5. Adding more databases
+## 5. Using multiple databases
 
-You may want to use multiple databases in your chatbot. You can reuse the `getDB( )` function to load several databases like below, allowing you to access each database with `chatbot.db`, `chatbot.db2`,  and `chatbot.db3`.
+#### Separate Google Sheets Files
+
+If you want to access multiple Google Sheet files to create multiple databases, you can reuse the `getDB( )` function to load several databases like below. This allows you to access each database with `chatbot.db`, `chatbot.db2`,  and `chatbot.db3`.
 
 ```javascript
-//replace the 'link' text in each to match your spreadsheet link 
+// replace the 'link' text in each to match your spreadsheet links 
+// for each Google Sheets file
 chatbot.getDB('link').then(data => chatbot.db = data);
-chatbot.getDB('link').then(data => chatbot.db2 = data);
-chatbot.getDB('link').then(data => chatbot.db3 = data);
+chatbot.getDB('link2').then(data => chatbot.db2 = data);
+chatbot.getDB('link3').then(data => chatbot.db3 = data);
+```
+
+#### One Google Sheets File with Several Sheets
+
+If you want to use a single Google Sheets File that has multiple named sheets, you can use the `getDB( )` function in the following way. Notice that you must include the _sheet name_ along with the _link_ in this case.
+
+```javascript
+// replace the 'link' text and 'sheet name' in each to match your spreadsheet link
+// and corresponding sheet names 
+chatbot.getDB('link', 'My First Sheet Name').then(data => chatbot.db = data);
+chatbot.getDB('link2', 'My Second Sheet Name').then(data => chatbot.db2 = data);
+chatbot.getDB('link3', 'My Third Sheet Name').then(data => chatbot.db3 = data);
 ```
 
