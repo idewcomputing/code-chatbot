@@ -32,7 +32,13 @@ var chatbot = {
   },
   dbFilter: function (db,col,val) {
     var filtered = db.filter(function(row) {
-      return row[col].toLowerCase().indexOf(val.toLowerCase()) > -1; 
+      var match = true;
+      if (!Array.isArray(val)) val = [val];
+      val.forEach(v=>{
+        if (row[col].toLowerCase().indexOf(v.toLowerCase()) == -1)
+        match = false;
+      })
+      return match; 
     });
     return filtered;
   },
