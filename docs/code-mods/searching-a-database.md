@@ -23,7 +23,7 @@ The function below will process the search and return HTML about the results.
 
 ```javascript
 > object searchTerms javascript
-  var filtered = chatbot.dbFilter(chatbot.db, "term", args[0]);
+  var filtered = chatbot.dbFilter(chatbot.db, "term", args); //used to be args[0]
   var terms = filtered.map(function(row) {
       return `${row.term}: ${row.definition}<hr>`;
     });
@@ -38,7 +38,7 @@ Let's step through what is happening above...
 **Line 2** uses the `chatbot.dbFilter()` function. Notice there are 3 arguments used by the function.  
      - `chatbot.db` is the database to be searched.  
      - `"term"` is the column name to be searched. In this case we will search each term name.  
-     - `args[0]` represents the text the user has typed in for the search.  
+     - `args` represents the text the user has typed in for the search.  
 The variable `filtered` now contains the matches of our search.
 
 **Lines 3-5** takes each matched item and creates HTML for the term and definition that will be displayed to the user.
