@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Chatbot Code Reference - Front Page](README.md)
+* [Chatbot Code Reference](README.md)
 * [Getting Started](core-template.md)
 * [Warm-up Project](warm-up-project-outline/README.md)
   * [1 Code Template](warm-up-project-outline/1-getting-started.md)

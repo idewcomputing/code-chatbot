@@ -1,4 +1,4 @@
-# Chatbot Code Reference - Front Page
+# Chatbot Code Reference
 
 ## Copyright and License
 
