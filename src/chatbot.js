@@ -4,6 +4,7 @@ var bot;
 
 var chatbot = {
   db: [],
+  replyDelay: 800,
   loadDB: function(link) {
     Tabletop.init({
       key: link,
@@ -58,7 +59,7 @@ var chatbot = {
     );
   },
   postReply: function(reply, delay) {
-    if (!delay) delay = 800;
+    if (!delay) delay = this.replyDelay;
     var rand = Math.round(Math.random() * 10000);
     setTimeout(function() {
       $("#dialogue").append(
