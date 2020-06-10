@@ -12,8 +12,7 @@ Below is an example of how you could insert buttons in the chatbot's response. I
 Notice that the example below uses the continuation syntax \(`^`\) in the chatbot response to make the Rivescript easier to read. Also notice that the optional  `<br>` element is used to create a line break in the chatbot interface.
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="Rivescript" %}
+{% code title="Rivescript" %}
 ```diff
 + start
 - What would you like to say?<br> 
@@ -30,8 +29,7 @@ Notice that the example below uses the continuation syntax \(`^`\) in the chatbo
 + youre awesome
 - Thanks. You are even more awesome.
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 That's it. Modify as needed.
 

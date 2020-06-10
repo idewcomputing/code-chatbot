@@ -1,6 +1,6 @@
 # Getting Started
 
-The code below will get you started with the iDEW chatbot template. It is a minimum starting point for a working chatbot that you will later modify and refine towards your design goals. There is a ****[**live example**](https://chatbot2018--jimlyst.repl.co/) which doesn't do anything exciting--that's up to you to change.
+The code below will get you started with the iDEW chatbot template. It is a minimum starting point for a working chatbot that you will later modify and refine towards your design goals. There is a ****[**live example**](https://chatbot2018--jimlyst.repl.co/) which doesn't do anything exciting -- that's up to you to change.
 
 ## HTML
 
@@ -8,8 +8,7 @@ Below is the core html for the chatbot. The _div_ element with an _id="dialogue"
 
 The required libraries are also loaded. _Tabletop.js_ enables you to use a back-end database using Google Sheets. _JQuery_ is a common library for Javascript programmers. _Rivescript_ is the chatbot scripting language you will use \(more on this later\). _Chatbot.js_ is the iDEW library that makes your programming easier.
 
-{% code-tabs %}
-{% code-tabs-item title="HTML - \(index.html\)" %}
+{% code title="HTML - \(index.html\)" %}
 ```markup
 <!DOCTYPE html>
 <html>
@@ -40,15 +39,13 @@ The required libraries are also loaded. _Tabletop.js_ enables you to use a back-
 
 </html>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Javascript
 
 Below is the minimal Javascript needed to get started. The `setup ()`function starts automatically once the page loads in the browser and simply loads the _Rivescript_ file as your chatbot script to get things started.
 
-{% code-tabs %}
-{% code-tabs-item title="JS \(code.js\)" %}
+{% code title="JS \(code.js\)" %}
 ```javascript
 function setup() {
 	chatbot.loadFiles(['bot.rive']);
@@ -56,15 +53,13 @@ function setup() {
 
 window.onload = setup;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Rivescript
 
 The script below determines how your chatbot will converse with a visitor. The `+ start` is automatically started to get the conversation going. The `+ *` is a wildcard that catches anything that you have not programmed your chatbot to recognize. At first your chatbot recognizes little, but we will work on that soon.
 
-{% code-tabs %}
-{% code-tabs-item title="Rivescript \(bot.rive\)" %}
+{% code title="Rivescript \(bot.rive\)" %}
 ```diff
 // conversation script is below
 // "start" auto-runs to begin the bot conversation 
@@ -75,15 +70,13 @@ The script below determines how your chatbot will converse with a visitor. The `
 + *
 - Sorry, I don't understand that.
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## CSS
 
 There is a lot going on here with the styling of the chatbot. Use the code below as your starting point, but you may choose to change some elements later. A simple way to customize the look would be to change the _background_, _font-family_, and _color_ of the body element.
 
-{% code-tabs %}
-{% code-tabs-item title="CSS \(style.css\)" %}
+{% code title="CSS \(style.css\)" %}
 ```css
 body {
   background: linear-gradient(#A90329, #6d0019);
@@ -192,6 +185,5 @@ div#dialogue {
   border-bottom-right-radius: 0;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 

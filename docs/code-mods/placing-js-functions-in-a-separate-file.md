@@ -6,8 +6,7 @@
 
 Your _Rivescript_ file could simply call a Javascript function like below.
 
-{% code-tabs %}
-{% code-tabs-item title="Rivescript" %}
+{% code title="Rivescript" %}
 ```javascript
 > object getRandomTerm javascript
   return getRandomTerm();
@@ -16,13 +15,11 @@ Your _Rivescript_ file could simply call a Javascript function like below.
 + random
 - Finding a random term... <call>getRandomTerm</call>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Notice how this will run the `getRandomTerm()` function, like the one below, that can be in your _code.js_ file.
 
-{% code-tabs %}
-{% code-tabs-item title="Javascript" %}
+{% code title="Javascript" %}
 ```javascript
 function getRandomTerm() {
   var randomIndex = Math.floor(Math.random() * chatbot.db.length);
@@ -30,8 +27,7 @@ function getRandomTerm() {
   return currentItem.term;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 **The chain of returns:** The Javascript function will _return_ the "term" \(in this case\) to the Rivescript object, which will then return that value to your script file
 
