@@ -33,7 +33,7 @@ Below, the `getRandomFlipcard` function gets a random term from the database and
 
 Below is a simple trigger you can use, but you will likely want to customize how the user starts using flip cards, whether by clicking a button or using a different keyword trigger.
 
-```diff
+```javascript
 + flipcard
 - <call>getRandomFlipcard</call>
 ```
