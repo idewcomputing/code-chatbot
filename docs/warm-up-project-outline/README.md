@@ -1,5 +1,7 @@
 # Warm-up Project
 
+{% embed url="https://www.loom.com/share/cf7220d385bb4eaf90c121ecd8fa1c8a" %}
+
 Let's take our first dive into _conversational interactions_ with a warm-up project that you will do individually. We will do some reading and research, as well as create an _interaction script_ for a chatbot. This will provide a foundation for tackling your team project.
 
 1. [Getting Started with Your Chatbot Code and Script](1-getting-started.md)
