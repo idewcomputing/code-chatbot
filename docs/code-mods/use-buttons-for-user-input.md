@@ -13,7 +13,7 @@ Notice that the example below uses the continuation syntax \(`^`\) in the chatbo
 {% endhint %}
 
 {% code title="Rivescript" %}
-```diff
+```javascript
 + start
 - What would you like to say?<br> 
 ^ <button onclick="chatbot.getReply('hello')">Hello</button><br>
