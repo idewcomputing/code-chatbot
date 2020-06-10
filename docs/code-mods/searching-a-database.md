@@ -12,7 +12,7 @@ This example uses the same database described in the example for [Connecting a D
 
 Create a trigger in your chatbot script like the one below that will respond to the user typing "search" followed by a word. The response will begin with "Searching..." to provide feedback to the user, then call a `searchTerms()` function that we will define next.
 
-```diff
+```javascript
 + search *
 - Searching... <call>searchTerms <star></call>
 ```
