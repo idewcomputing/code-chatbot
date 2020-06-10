@@ -1,5 +1,7 @@
 # Getting Started
 
+{% embed url="https://www.loom.com/share/11223bfc18be4730a9378a33f55edfbb" %}
+
 The code below will get you started with the iDEW chatbot template. It is a minimum starting point for a working chatbot that you will later modify and refine towards your design goals. There is a ****[**live example**](https://chatbot2018--jimlyst.repl.co/) which doesn't do anything exciting -- that's up to you to change.
 
 ## HTML
