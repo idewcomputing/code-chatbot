@@ -4,7 +4,7 @@
 
 Rivescript offers a way to store data in your chatbot. For example, you could use the following script.
 
-```diff
+```javascript
 + my name is *
 - <set name=<star>>It's nice to meet you, <get name>.
 
@@ -39,7 +39,7 @@ Learn more about localStorage in Javascript [here](https://developer.mozilla.org
 
 Next, create the script needed to use these functions, like below.
 
-```diff
+```javascript
 + start // "start" autostarts the bot conversation 
 - Hello, <call>getName</call>
 
