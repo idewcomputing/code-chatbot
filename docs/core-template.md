@@ -34,7 +34,7 @@ The required libraries are also loaded. _Tabletop.js_ enables you to use a back-
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-chatbot/src/chatbot.js"></script>
-  <script src="code.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
@@ -45,7 +45,7 @@ The required libraries are also loaded. _Tabletop.js_ enables you to use a back-
 
 Below is the minimal Javascript needed to get started. The `setup ()`function starts automatically once the page loads in the browser and simply loads the _Rivescript_ file as your chatbot script to get things started.
 
-{% code title="JS \(code.js\)" %}
+{% code title="JS \(script.js\)" %}
 ```javascript
 function setup() {
 	chatbot.loadFiles(['bot.rive']);
