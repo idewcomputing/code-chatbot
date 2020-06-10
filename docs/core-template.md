@@ -60,7 +60,7 @@ window.onload = setup;
 The script below determines how your chatbot will converse with a visitor. The `+ start` is automatically started to get the conversation going. The `+ *` is a wildcard that catches anything that you have not programmed your chatbot to recognize. At first your chatbot recognizes little, but we will work on that soon.
 
 {% code title="Rivescript \(bot.rive\)" %}
-```diff
+```javascript
 // conversation script is below
 // "start" auto-runs to begin the bot conversation 
 
