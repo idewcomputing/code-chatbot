@@ -17,14 +17,20 @@ In order to import your information, you will need to publish your Google Sheet.
 
 ## 3. Load the Spreadsheet Data into Your Chatbot JavaScript
 
-Add the following to your `code.js` file inside the `setup()` function. You can place it at the top.
+Update the `code.js` file inside the `setup()` function to what you see in lines 4 - 7 below. Notice that `chatbot.loadFiles(['bot.rive']);` has been moved inside the `chatbot.getDB` function. This ensures that your database has loaded before the chatbot is started.
 
 ```javascript
-chatbot.getDB('1rR9ODzcTYv95dYGal-ZXBRp3wgp0I7fbKIk5I2hJkgI')
-    .then(data => chatbot.db = data);
+function setup() {
+	pop = new Audio('pop.mp3');
+  chatbot.replyDelay = 500;
+  chatbot.getDB('1rR9ODzcTYv95dYGal-ZXBRp3wgp0I7fbKIk5I2hJkgI',"Sheet1").then(data => {
+    chatbot.db = data;
+    chatbot.loadFiles(['bot.rive']);
+  });
+}
 ```
 
-You will need to change the `key` value \(the long number in the example above\) to the link you copied in the previous step for your Google sheet. Your spreadsheet data is now available in an array, `chatbot.db`, where each array element represents a row in your spreadsheet as an object.
+**You will need to change the `key` value \(the long number in the example above\) to the link you copied in the previous step for your Google sheet.** Your spreadsheet data is now available in an array, `chatbot.db`, where each array element represents a row in your spreadsheet as an object.
 
 {% hint style="warning" %}
 **For those that may have previously used `loadDB( )`:** 
