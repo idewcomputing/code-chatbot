@@ -23,7 +23,7 @@ Update the `code.js` file inside the `setup()` function to what you see in lines
 function setup() {
 	pop = new Audio('pop.mp3');
   chatbot.replyDelay = 500;
-  chatbot.getDB('1rR9ODzcTYv95dYGal-ZXBRp3wgp0I7fbKIk5I2hJkgI',"Sheet1").then(data => {
+  chatbot.getDB('1rR9ODzcTYv95dYGal-ZXBRp3wgp0I7fbKIk5I2hJkgI').then(data => {
     chatbot.db = data;
     chatbot.loadFiles(['bot.rive']);
   });
