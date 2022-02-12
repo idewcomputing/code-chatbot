@@ -8,7 +8,11 @@ The code below will get you started with the iDEW chatbot template. It is a mini
 
 Below is the core html for the chatbot. The _div_ element with an _id="dialogue"_ is the block that contains the back-and-forth messages like you see in common messaging interfaces. The _form_ element handles the user's text input at the bottom of the interface.&#x20;
 
-The required libraries are also loaded. _Tabletop.js_ enables you to use a back-end database using Google Sheets. _JQuery_ is a common library for Javascript programmers. _Rivescript_ is the chatbot scripting language you will use (more on this later). _Chatbot.js_ is the iDEW library that makes your programming easier.
+The required libraries are also loaded. _PapaParse.js_ enables you to use a back-end database using Google Sheets. _JQuery_ is a common library for Javascript programmers. _Rivescript_ is the chatbot scripting language you will use (more on this later). _Chatbot.js_ is the iDEW library that makes your programming easier.
+
+{% hint style="info" %}
+**Update February 11, 2022**: The PapaParse library is now used, instead of the Tabletop library, to **optionally** import data from a spreadsheet. The change is seen at line 21 below.
+{% endhint %}
 
 {% code title="HTML - (index.html)" %}
 ```markup
@@ -32,7 +36,7 @@ The required libraries are also loaded. _Tabletop.js_ enables you to use a back-
       </div>
     </form>
   </div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-chatbot/src/chatbot.js"></script>

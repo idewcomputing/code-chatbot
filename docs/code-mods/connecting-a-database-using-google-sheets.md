@@ -8,12 +8,20 @@ Below is an example of a spreadsheet of _machine learning_ terms. Of course, you
 
 ![Example Spreadsheet for Chatbot Database](../.gitbook/assets/dbSpreadsheetEx.png)
 
+{% hint style="info" %}
+**Update February 11, 2022:** Steps 2 and 3 below have been updated to fix a problem associated with a Google api change.
+{% endhint %}
+
 ## 2. Publish Your Google Sheet <a href="#using-google-sheet-as-database-recommended" id="using-google-sheet-as-database-recommended"></a>
 
 In order to import your information, you will need to publish your Google Sheet.
 
-1. Publish your copy of the spreadsheet by selecting `File > Publish to the web...` and click the `Publish` button.
-2. Once your spreadsheet is published, click the _share_ button (upper right-hand side) of the spreadsheet page and **copy the shareable link**. (Make sure your link is set to _Anyone with the link can view_.)
+1. Publish your copy of the spreadsheet by ...
+   * Selecting `File > Share > Publish to the web...`&#x20;
+   * Then under the `link` heading select the sheet you want to use with the first drop-down menu
+   * Select `comma-separated values (.csv)` from the second drop-down menu.&#x20;
+   * Finally, click the `Publish` button and copy the link provided.
+2. Once your spreadsheet is published, **copy the shareable link**. (Make sure your link is not restricted to your organization.)
 
 ## 3. Load the Spreadsheet Data into Your Chatbot JavaScript
 
@@ -23,14 +31,14 @@ Update the `code.js` file inside the `setup()` function to what you see in lines
 function setup() {
 	pop = new Audio('pop.mp3');
   chatbot.replyDelay = 500;
-  chatbot.getDB('1rR9ODzcTYv95dYGal-ZXBRp3wgp0I7fbKIk5I2hJkgI').then(data => {
+  chatbot.getDB('https://docs.google.com/spreadsheets/d/e/2PACX-1vQVGvNvFcTxeu2zL1u8xSicbmD7Vghr_gjBp-lhAXscGi0nzy9RX7ZU0Hp0GvQgPP0cpgSeyBbUa8_Y/pub?gid=0&single=true&output=csv').then(data => {
     chatbot.db = data;
     chatbot.loadFiles(['bot.rive']);
   });
 }
 ```
 
-**You will need to change the `key` value (the long number in the example above) to the link you copied in the previous step for your Google sheet.** Your spreadsheet data is now available in an array, `chatbot.db`, where each array element represents a row in your spreadsheet as an object.
+**You will need to change the link above to the link you copied in the previous step for your Google sheet.** Your spreadsheet data is now available in an array, `chatbot.db`, where each array element represents a row in your spreadsheet as an object.
 
 {% hint style="warning" %}
 **For those that may have previously used `loadDB( )`:**&#x20;
