@@ -1,12 +1,10 @@
 # Searching a Database
 
-Below is an example of how a chatbot could search a database of definitions and display the results as buttons for the user to click to then get the definition of that term.
-
 {% hint style="info" %}
 This example uses the same database described in the example for [Connecting a Database Using Google Sheets](https://docs.idew.org/code-chatbot/code-mods/connecting-a-database-using-google-sheets), which has column names _id, term, definition, and keywords_. Your database will likely have different column names.
 {% endhint %}
 
-![](../.gitbook/assets/searchexample.png)
+![](../.gitbook/assets/searchExample.png)
 
 ## 1. Create the Rivescript Trigger
 
@@ -35,10 +33,10 @@ The function below will process the search and return HTML about the results.
 
 Let's step through what is happening above...
 
-**Line 2** uses the `chatbot.dbFilter()` function. Notice there are 3 arguments used by the function.  
-     - `chatbot.db` is the database to be searched.  
-     - `"term"` is the column name to be searched. In this case we will search each term name.  
-     - `args` represents the text the user has typed in for the search.  
+**Line 2** uses the `chatbot.dbFilter()` function. Notice there are 3 arguments used by the function.\
+&#x20;    \- `chatbot.db` is the database to be searched.\
+&#x20;    \- `"term"` is the column name to be searched. In this case we will search each term name.\
+&#x20;    \- `args` represents the text the user has typed in for the search.\
 The variable `filtered` now contains the matches of our search.
 
 **Lines 3-5** takes each matched item and creates HTML for the term and definition that will be displayed to the user.
@@ -47,7 +45,5 @@ The variable `filtered` now contains the matches of our search.
 
 **Line 7** modifies our reply with the HTML of terms and definitions if there were any matches.
 
-**Line 8** uses the chatbot.postReply\(\) function to display the reply after 2 seconds.
-
-
+**Line 8** uses the chatbot.postReply() function to display the reply after 2 seconds.
 

@@ -20,4 +20,4 @@
   * [Using Topics](code-mods/adding-topics.md)
   * [Create Flipcards](code-mods/create-flipcards.md)
 * [Rivescript Reference](https://www.rivescript.com/docs/tutorial)
-
+* [Chatbot Project Guidebook](https://docs.idew.org/project-chatbot/)

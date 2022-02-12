@@ -6,14 +6,14 @@ You can use a Google Sheet as a database for your chatbot. Making a database thi
 
 Below is an example of a spreadsheet of _machine learning_ terms. Of course, you could have many more terms. **The key is to make it a simple table with single word headings on the first row.**
 
-![Example Spreadsheet for Chatbot Database](../.gitbook/assets/dbspreadsheetex.png)
+![Example Spreadsheet for Chatbot Database](../.gitbook/assets/dbSpreadsheetEx.png)
 
-## 2. Publish Your Google Sheet <a id="using-google-sheet-as-database-recommended"></a>
+## 2. Publish Your Google Sheet <a href="#using-google-sheet-as-database-recommended" id="using-google-sheet-as-database-recommended"></a>
 
 In order to import your information, you will need to publish your Google Sheet.
 
 1. Publish your copy of the spreadsheet by selecting `File > Publish to the web...` and click the `Publish` button.
-2. Once your spreadsheet is published, click the _share_ button \(upper right-hand side\) of the spreadsheet page and **copy the shareable link**. \(Make sure your link is set to _Anyone with the link can view_.\)
+2. Once your spreadsheet is published, click the _share_ button (upper right-hand side) of the spreadsheet page and **copy the shareable link**. (Make sure your link is set to _Anyone with the link can view_.)
 
 ## 3. Load the Spreadsheet Data into Your Chatbot JavaScript
 
@@ -30,15 +30,15 @@ function setup() {
 }
 ```
 
-**You will need to change the `key` value \(the long number in the example above\) to the link you copied in the previous step for your Google sheet.** Your spreadsheet data is now available in an array, `chatbot.db`, where each array element represents a row in your spreadsheet as an object.
+**You will need to change the `key` value (the long number in the example above) to the link you copied in the previous step for your Google sheet.** Your spreadsheet data is now available in an array, `chatbot.db`, where each array element represents a row in your spreadsheet as an object.
 
 {% hint style="warning" %}
-**For those that may have previously used `loadDB( )`:** 
+**For those that may have previously used `loadDB( )`:**&#x20;
 
 The `loadDB( )` function still works but it is being deprecated. You should use the `getDB( )` shown above since it supports loading multiple databases.
 {% endhint %}
 
-The `chatbot.db` array now contains your spreadsheet data as a list of Javascript objects like the one shown below. See the connection to the spreadsheet we started with? So, in Javascript you could use `chatbot.db[0].keywords` to get the first term's key words \("labeled, training"\).
+The `chatbot.db` array now contains your spreadsheet data as a list of Javascript objects like the one shown below. See the connection to the spreadsheet we started with? So, in Javascript you could use `chatbot.db[0].keywords` to get the first term's key words ("labeled, training").
 
 ```javascript
 [
@@ -73,11 +73,11 @@ The `chatbot.db` array now contains your spreadsheet data as a list of Javascrip
 ]
 ```
 
-## 4. Accessing the Database in a Function 
+## 4. Accessing the Database in a Function&#x20;
 
-You could now access your database in a function like the one below. This function gets a random term to quiz the chatbot user. Notice how the chatbot responds to "quiz me" by calling the `getRandomTerm` function \(object\) which returns a random term so the chatbot responds with something like "What is Reinforcement Learning?".
+You could now access your database in a function like the one below. This function gets a random term to quiz the chatbot user. Notice how the chatbot responds to "quiz me" by calling the `getRandomTerm` function (object) which returns a random term so the chatbot responds with something like "What is Reinforcement Learning?".
 
-```text
+```
   > object getRandomTerm javascript
     var randomIndex = Math.floor(Math.random() * chatbot.db.length);
     var currentItem = chatbot.db[randomIndex]
@@ -115,4 +115,3 @@ chatbot.getDB('link', 'My First Sheet Name').then(data => chatbot.db = data);
 chatbot.getDB('link2', 'My Second Sheet Name').then(data => chatbot.db2 = data);
 chatbot.getDB('link3', 'My Third Sheet Name').then(data => chatbot.db3 = data);
 ```
-
