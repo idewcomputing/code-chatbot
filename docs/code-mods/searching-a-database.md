@@ -19,6 +19,7 @@ Create a trigger in your chatbot script like the one below that will respond to 
 
 The function below will process the search and return HTML about the results.
 
+{% code lineNumbers="true" %}
 ```javascript
 > object searchTerms javascript
   var filtered = chatbot.dbFilter2(chatbot.db, "term", args); //used to be args[0]
@@ -31,6 +32,7 @@ The function below will process the search and return HTML about the results.
   return '';
 < object
 ```
+{% endcode %}
 
 Let's step through what is happening above...
 
@@ -47,4 +49,6 @@ The variable `filtered` now contains the matches of our search.
 **Line 7** modifies our reply with the HTML of terms and definitions if there were any matches.
 
 **Line 8** uses the chatbot.postReply() function to display the reply after 2 seconds.
+
+**Line 9** simply returns an empty string so that you don't get an `undefined` showing up in your chatbot in certain cases. The reply text is taken care of in the lines above.
 
